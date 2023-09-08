@@ -1,0 +1,20 @@
+// {loading ?
+//     <>
+//         {/* userId - {userId} */}
+//         {/* id - {id} */}
+//         <input type="checkbox" id={id} onChange={updateStatus} name="scales" checked={completed ? 'checked' : ''} />
+//         {edit ? 
+//             <input type="text" defaultValue={title} onChange={(e) => updateTextInput(e.target.value)}></input>
+//         :
+//             <label style={{textDecoration: completed ? "line-through" : "none"}}>{title}</label>
+//         }
+        
+        
+//         <button id={id} onClick={deleteTask} >delete</button>
+//         <button id={id} onClick={editTask} hidden={edit}>Edit</button>
+//         <button id={id} onClick={saveTask} hidden={!edit}>Save</button>
+//     </>
+//     :
+//     <>
+//     </>
+// }
