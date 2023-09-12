@@ -30,6 +30,7 @@ const User = () => {
             title: inputboxData,
             completed: false
         })
+        window.alert("To-Do Added, Scroll at the bottom to see the To-do")
         // console.log(apiRes)
         // userData.push(apiRes.data)
         newPost([...userData, apiRes.data])
